@@ -1,16 +1,7 @@
 function getColor(selection)
 {
-	selection = selection.toUpperCase()
 	switch(selection){
-		case 'RED':
-			return true;
-		break;
-		case 'GREEN':
-			return true;
-		break;
-		case 'BLUE':
-			return true;
-		break;
+		// Add more options here
 	    default:
 	    	return false;  //returns false because the user picked an unavailable color
 	    break;               
